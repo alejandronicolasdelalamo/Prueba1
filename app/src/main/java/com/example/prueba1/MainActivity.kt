@@ -12,8 +12,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.prueba1.composables.BoxExample
 import com.example.prueba1.composables.ButtonExample
 import com.example.prueba1.composables.ImageExample
+import com.example.prueba1.composables.RowExample
 import com.example.prueba1.composables.TextExample
 import com.example.prueba1.ui.theme.Prueba1Theme
 
@@ -23,9 +25,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Prueba1Theme {
-                TextExample(name = "Mundo")
+                TextExample(name = "Majo")
                 ImageExample()
-                ButtonExample()
+
+
+
             }
         }
     }

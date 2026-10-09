@@ -11,12 +11,8 @@ import androidx.compose.ui.unit.sp
 fun TextExample(name: String) {
     Text(text = "Hola: $name",
         fontSize = 40.sp,
-        color = Color(0xFF05D1FF),
+        color = Color(0xFF0A0A0A),
         fontWeight = FontWeight.Thin
     )
 }
-@Preview(showBackground = true)
-@Composable
-fun TextExamplePreview(){
-    TextExample(name = "Pepe")
-}
+
